@@ -13,4 +13,7 @@ pipeline {
             }
         }
     }
+    triggers {
+        githubPush()   // automatically trigger on GitHub push
+    }
 }

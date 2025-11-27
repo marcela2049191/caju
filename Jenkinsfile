@@ -8,8 +8,8 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                // sh './run.sh'
-              echo "Hello from jenkinsfile"
+                sh './bash/run.sh'
+              //echo "Hello from jenkinsfile"
             }
         }
     }

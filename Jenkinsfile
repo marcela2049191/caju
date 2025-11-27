@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clone Repo') {
+        stage('Clone Repooo') {
             steps {
                 git url: 'https://github.com/marcela2049191/caju.git', branch: 'main'
             }

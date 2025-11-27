@@ -8,7 +8,8 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                sh 'bash/hello.sh'
+                sh 'chmod +x bash/hello.sh'
+                sh './bash/hello.sh'
               //echo "Hello from jenkinsfile"
             }
         }
